@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Task} from '../../Task'    // interface
-import {TASKS} from '../../mock-tasks' // mock data
+import { TaskService } from 'src/app/services/task.service';
+import { Task } from '../../Task'    // interface
+
 
 // this components shall get data from json, Backend
 
@@ -10,7 +11,7 @@ import {TASKS} from '../../mock-tasks' // mock data
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent implements OnInit {
-  tasks: Task[] = TASKS
+  tasks: Task[] = []
   constructor() { }
 
   ngOnInit(): void {

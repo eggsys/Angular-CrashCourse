@@ -26,4 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## OmegaLUL
+## Note
+
+`observables` [Using observables to pass values](https://angular.io/guide/observables#using-observables-to-pass-values)
+
